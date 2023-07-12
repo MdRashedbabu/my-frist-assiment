@@ -1,0 +1,88 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+     margin-right: 40px;
+     background: rgba(229, 84, 115, 0.10);
+     width: 1920px;
+     height: 850px;
+     display: flex;
+     justify-content: space-around;
+}
+.sarowar > h1{
+    font-size:80px;
+}
+.sarowar{
+    padding-top: 230px;
+}
+.sarowar > p{
+    padding-top:30px;
+}
+.sarowar > button{
+    background-color: blue;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.header2{
+    width: 1922px;
+    height:500px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: red;
+    display: flex;
+    padding-top:300px;
+    padding-left:500px; 
+}
+.img{
+    padding-left:200px;
+    padding-bottom:200px;
+}
+.alamin > h1{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.alamin > p{
+    display: flex;
+    width: 594px;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+.mang{
+    color:yellow;
+}
+.alamin > button{
+    background-color:aqua;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+}
+.rashed > h1{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 45px;
+    color: aliceblue;
+
+}
+.rashed > p{
+text-align: center;
+padding-top:15px;
+
+}
+.rashed2 >ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.rashed2{
+    padding:140px;
+}
